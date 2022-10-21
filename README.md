@@ -14,11 +14,11 @@ SO THAT I can find out what streaming service(s) it's available on.
 
 # APIs
 
-[OMDb API](https://www.omdbapi.com/)
-[Streaming Availability](https://rapidapi.com/movie-of-the-night-movie-of-the-night-default/api/streaming-availability)
+- [OMDb API](https://www.omdbapi.com/)
+- [Streaming Availability](https://rapidapi.com/movie-of-the-night-movie-of-the-night-default/api/streaming-availability)
 
 # Tasks
 
-Landing page
-Search bar (by movie/TV title)
-Populated results in list format
+- Landing page
+- Search bar (by movie/TV title)
+- Populated results in list format
