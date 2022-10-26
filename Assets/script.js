@@ -78,3 +78,5 @@ function typeSearch(e) {
 form.addEventListener('btn-search', searchHandler)
 
 getMovies()
+
+()
