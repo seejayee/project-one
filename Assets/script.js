@@ -17,7 +17,7 @@ function submit() {
     .then((response) => response)
     .then((response) => {
       var searchTitle = document.getElementById("results");
-      searchTitle.textContent = response.Title;
+      searchTitle.textContent = response.Title + " (" + response.Year + ")";
       var results = response.Ratings;
       for (var i = 0; i < results.length; i++) {
         var ratingList = document.createElement("li");
