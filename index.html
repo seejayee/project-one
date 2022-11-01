@@ -5,27 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Ultimate Website of Destiny</title>
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="./Assets/style.css"/>
 </head>
 
 <body>
-    <input type="text" id="mediaSearch">Search for a film or TV show</input>
-    <button id="btnSearch">Go!</button>
-    <h1>The Ultimate Website of Destiny</h1>
-    <div>
-        <h2 id='results'>result</h2>
+    <section class="section">
+    <h1 class="title columns has-text-centered level-item">The Ultimate Website of Destiny</h1>
+</section>
+    <section class="section columns is-centered has-text-danger">
+    <input size="30" placeholder="Search for a Film or TV show" type="text" id="mediaSearch"></input>
+    <button class="button is-medium is-danger is-outlined" id="btnSearch">Find!</button>
+</section>
+    <section class="section has-text-centered">
+        <h2 class="subtitle columns is-centered has-text-danger is-size-3 2rem" id='results'>Result</h2>
     <ul id="Ratings"> 
-        <li>item 1</li>
-        <li>item 2</li>
     </ul>
-    </div>
+</section>
+<section class="section has-text-centered">
 
     <aside id="Streaming">
-        <h2>Streaming</h2>
+        <h2 class="subtitle columns is-centered has-text-danger is-size-3 2rem">Streaming</h2>
         <ul id="streamList"></ul>
 
     </aside>
+
+</section>
 <script src="./Assets/script.js"></script>
 </body>
 </html>
