@@ -6,19 +6,17 @@ Application to search for a movie or TV show, see how it was reviewed, and find 
 
 AS A user
 I WANT to be able to search for a movie or TV show
-SO THAT I can learn how it was reviewed.
+SO THAT I can learn how it was rated.
 I WANT to be able to search for a movie or TV show
 SO THAT I can find out what streaming service(s) it's available on.
-
-# Wireframe
 
 # APIs
 
 - [OMDb API](https://www.omdbapi.com/)
 - [Streaming Availability](https://rapidapi.com/movie-of-the-night-movie-of-the-night-default/api/streaming-availability)
 
-# Tasks
+# Screenshot 
+![Screenshot of project one](./Assets/images/Screenshot%20of%20project%20one.png)
 
-- Landing page
-- Search bar (by movie/TV title)
-- Populated results in list format
+# Deployed Application Link
+- [This is a website!](https://hostile131.github.io/project-one/)

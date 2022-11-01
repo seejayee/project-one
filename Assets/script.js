@@ -50,9 +50,12 @@ function submit() {
           var Streaming = response.result[0].streamingInfo.us;
           console.log(typeof(Streaming));
           for (const key in Streaming) {
-            var streamingList = document.createElement("li");
+            var streamingList = document.createElement("a");
+            var streamingLink = document.createElement("li");
             streamingList.textContent = key;
-            makeStreamList.appendChild(streamingList);
+            streamingList.setAttribute("href", Streaming[key][0].link);
+            streamingLink.appendChild(streamingList);
+            makeStreamList.appendChild(streamingLink);
             if (Streaming.hasOwnProperty(key)) {
               console.log(`${key} -> ${Streaming[key][0].link}`)
             }
